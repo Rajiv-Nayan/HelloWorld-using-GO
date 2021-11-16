@@ -1,0 +1,24 @@
+
+{
+    "call": [{
+        "title": "Call the helloworld service",
+        "description": "Helloworld is a simple example that takes a name and returns a personalised message",
+        "run_check": true,
+        "request": {
+            "name": "John"
+        },
+        "response": {
+            "message": "Hello John"
+        }
+    }],
+    "stream": [{
+        "title": "Streams are currently temporarily not supported in clients",
+        "run_check": true,
+        "request": {
+            "name": "not supported"
+        },
+        "response": {
+            "message": "not supported"
+        }
+    }]
+}
